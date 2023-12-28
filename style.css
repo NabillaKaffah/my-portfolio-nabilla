@@ -2,6 +2,10 @@
 :root{
     --warna-utama: #e9c46a;
     --warna-gelap:#0f0f0f;
+
+    --h2-font-size:40px;
+    --h2-font-size:32px;
+    --small-font-size:14px;
 }
 
 /* reset css */
@@ -18,6 +22,20 @@
 
 section{
     padding: 70px 0;
+}
+section .section-title{
+    font-size: var(--h2-font-size);
+    font-weight: 800;
+    text-transform: uppercase;
+}
+.btn-yellow{
+    background-color: var(--warna-utama);
+    font-weight: bold;
+    text-transform: uppercase;
+}
+.btn-yellow:hover{
+    border-color: var(--warna-utama);
+    color: black;
 }
 .header-section .header-title
 {
@@ -41,4 +59,7 @@ color: var(--warna-utama);
 }
 .header-section .header-img{
     width: 70%;
+}
+.portfolio-section{
+    background-color: var(--warna-utama);
 }
