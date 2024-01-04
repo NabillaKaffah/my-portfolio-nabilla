@@ -2,6 +2,7 @@
 :root{
     --warna-utama: #e9c46a;
     --warna-gelap:#0f0f0f;
+    --brown-color:brown;
 
     --h2-font-size:40px;
     --h2-font-size:32px;
@@ -62,4 +63,16 @@ color: var(--warna-utama);
 }
 .portfolio-section{
     background-color: var(--warna-utama);
+}
+/* skills */
+.skills-section
+{
+    background-color: var(--warna-utama);
+}
+.skills-section .progress-bar
+{
+width: 100%;
+height: 10px;
+border-radius: 10px;
+background-color:var(--brown-color);
 }
