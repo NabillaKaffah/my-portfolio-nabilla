@@ -76,3 +76,15 @@ height: 10px;
 border-radius: 10px;
 background-color:var(--brown-color);
 }
+
+/* news */
+.new-section .card .card-img-top {
+    height: 200px;
+    width: 100%;
+    object-fit: ;
+}
+
+.new-section .card a{
+    font-size: 12px;
+    
+}
