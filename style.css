@@ -64,6 +64,24 @@ color: var(--warna-utama);
 .portfolio-section{
     background-color: var(--warna-utama);
 }
+
+.portfolio-section .card .card-img-top{
+    height:200px;
+    width: 100%;
+    object-fit: cover;
+  }
+
+  @media screen and (max-width: 768px) {
+    .portfolio-section .card a {
+      margin: 4px;
+      font-size: 12px;
+    }
+    .portfolio-section .card {
+      font-size:14px;
+  }
+}
+
+
 /* skills */
 .skills-section
 {
@@ -81,10 +99,30 @@ background-color:var(--brown-color);
 .new-section .card .card-img-top {
     height: 200px;
     width: 100%;
-    object-fit: ;
+    object-fit: cover;
 }
 
 .new-section .card a{
     font-size: 12px;
     
 }
+.bg-color
+{
+    background-color: #e9c46a;
+}
+.text-yellow
+{
+    color: #e9c46a;
+}
+@media screen and (max-width: 768px) {
+    .news-section .card p {
+      font-size: 14px;
+    }
+  
+    .news-section .card a {
+      font-size: 12px;
+  
+  }
+}
+
+ 
